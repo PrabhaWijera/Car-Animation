@@ -1,0 +1,200 @@
+/*body{*/
+/*    position: relative;*/
+/*    overflow-x:hidden ;*/
+/*    overflow-y:hidden ;*/
+
+/*}*/
+
+/*body>section{*/
+/*    position: relative;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    border: 5px solid black;*/
+/*    background-image: url("Car_Animation_Img/sky.jpg");*/
+
+/*}*/
+/*.road{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/road.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 440px;*/
+/*    margin: auto;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+/*.road2{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/road.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 440px;*/
+/*    right: 1400px;*/
+/*    margin: auto;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+/*.road3{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/road.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 440px;*/
+/*    right: 2400px;*/
+/*    margin: auto;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+/*.road4{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/road.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 440px;*/
+/*    right: 3400px;*/
+/*    margin: auto;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+
+/*.city{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/city.png");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 190px;*/
+/*    right: 0;*/
+
+/*    margin: auto;*/
+
+/*    animation-name: slideph;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-duration: 2s;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+/*.city2{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/city.png");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 190px;*/
+/*    right: 1400px;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+/*}*/
+/*.city3{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/city.png");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 190px;*/
+/*    right: 2600px;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-direction: reverse;*/
+/*    animation-timing-function: linear;*/
+/*}*/
+/*.city4{*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-image: url("Car_Animation_Img/city.png");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 190px;*/
+/*    right: 3600px;*/
+/*    animation-name: slideph;*/
+
+/*    animation-duration: 2s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: reverse;*/
+
+/*}*/
+/*@keyframes slideph {*/
+/*   0%{*/
+/*       transform: translateX(2.1rem);*/
+/*   }*/
+
+/*    100%{*/
+/*        !*transform: translateX(402px);*!*/
+/*        transform: translateX(200.1rem);*/
+/*    }*/
+/*}*/
+/*.car{*/
+/*    background-repeat: no-repeat;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    top: 350px;*/
+/*}*/
+/*.cr1{*/
+/*    position: absolute;*/
+/*    right: 570px;*/
+/*    bottom: 10px;*/
+/*    animation-name: cr1andcr2;*/
+/*    animation-duration: 1s;*/
+/*    animation-fill-mode: backwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+/*.cr2{*/
+/*    position: absolute;*/
+/*    left: 550px;*/
+/*    bottom: 10px;*/
+/*    animation-name: cr1andcr2;*/
+/*    animation-duration: 1s;*/
+/*    animation-fill-mode: backwards;*/
+/*    animation-timing-function: linear;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+/*@keyframes cr1andcr2 {*/
+/*    from{*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    to{*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+
+
+
